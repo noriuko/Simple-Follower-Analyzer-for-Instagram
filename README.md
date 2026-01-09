@@ -26,6 +26,8 @@ Since this app works offline, you need to request your data from Instagram:
 
     Select Followers and Following.
 
+    Make sure to select ALL TIME for the time range. Otherwise not all followers will be included
+
     Crucial: Change the Format to JSON (HTML will not work).
 
     Once the file arrives in your email, download and unzip it.
