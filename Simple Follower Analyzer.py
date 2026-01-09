@@ -112,8 +112,8 @@ class ToggleSwitch(tk.Canvas):
 class InstagramCheckerApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Simple Follower Analyzer v1.07")
-        self.root.geometry("520x850")
+        self.root.title("Simple Follower Analyzer v1.1.0")
+        self.root.geometry("550x850")
         self.root.configure(bg="#fafafa")
         
         # Configure style
@@ -321,7 +321,7 @@ class InstagramCheckerApp:
         self.btn_following = GradientButton(following_frame, 
                                           text="📄 Select following.json",
                                           command=self.load_following,
-                                          width=180,
+                                          width=200,
                                           height=35)
         self.btn_following.pack(side="left", padx=(0, 12))
         
@@ -339,7 +339,7 @@ class InstagramCheckerApp:
         self.btn_followers = GradientButton(followers_frame,
                                           text="📄 Select followers_1.json",
                                           command=self.load_followers,
-                                          width=180,
+                                          width=200,
                                           height=35)
         self.btn_followers.pack(side="left", padx=(0, 12))
         
